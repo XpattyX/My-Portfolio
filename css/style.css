@@ -1,0 +1,256 @@
+/* **********************#RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+}
+button {
+    border: none;
+    background-color: #42AD70;
+    padding: 13px 23px;
+    border-radius: 24px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+button:hover {
+    border: none;
+    background-color: #9EE2BC;
+    padding: 13px 23px;
+    border-radius: 24px;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+button >.fa {
+    padding-right: 8px;
+    font-size: 20px;
+}
+
+  /* **********************#Container */
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* **********************#Header logo*/
+header {
+    position: fixed;
+    width: 100%;
+    height: 72px;
+    background-color: #42AD70;
+}
+.nav-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.logo {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 123px 1fr;
+    gap: 12px;
+}
+.logo h1 {
+    font-size: 32px;
+    color: #fff;
+    font-family: "Lexend Mega", sans-serif;
+    font-weight: 500;
+}
+.logo h1 img {
+    height: 43px;
+    width: 39px;
+}
+/* **********************#Header menu*/
+ul.menu {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    gap: 2px;
+}
+ul.menu li {
+    list-style: none;
+}
+ul.menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    transition: .3s ease-in-out;
+    padding: 8px 12px;
+    border-radius: 16px;
+}
+ul.menu li a:hover{
+    background: #9EE2BC;
+    padding: 8px 12px;
+    border-radius: 16px;
+    color: #000;
+}
+
+/* **********************#Content home*/
+.home {
+    width: 100%;
+    background-color: #fff;
+    
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.home-grid-item img {
+    width: 470px;
+    height: 509px;
+    margin-top: 157px;
+}
+.home-grid-item h1 {
+    margin-top: 303px;
+    font-size: 50px;
+    font-family: "Lexend Mega", sans-serif;
+    font-weight: 600;
+}
+.home-grid-item h4 {
+    padding-top: 8px;
+    font-size: 16px;
+    color: #555555;
+}
+.social-link {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 8px 0;
+    display: grid;
+    grid-template-columns: 33px 33px 33px;
+    gap: 16px;
+}
+.social-link a .fa {
+    font-size: 33px;
+    color: #000;
+    transition: .3s ease-in-out;
+}
+.social-link a .fa:hover {
+    font-size: 33px;
+    color: #42AD70;
+}
+
+/* **********************#Content Skill*/
+.flower{
+    margin-top: 162px;
+    display: grid;
+    grid-template-columns: repeat(3, 33px);
+    justify-content: center;
+    gap: 60px;
+}
+.skill h1 {
+    font-family: "Lexend Mega", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 0;
+}
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 290px);
+    gap: 45px;
+    justify-content: center;
+}
+.skill-grid-item {
+    background-color: #FFDADB;
+    border-radius: 24px;
+    height: 220px;
+}
+.skill-grid-item h3 {
+    text-align: center;
+    font-family: "Lexend Mega", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 22px;
+}
+.skill-grid-item ul {
+    padding-top: 20px;
+    padding-left: 56px;
+}
+.skill-grid-item ul li {
+    font-size: 16px;
+}
+/* **********************#Content Education*/
+.education h1 {
+    font-family: "Lexend Mega", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 75px;
+}
+.education-center {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+.education-item {
+    background-color: #FFDADB;
+    width: 510px;
+    height: 264px;
+    border-radius: 24px;
+    padding-left: 23px;
+    padding-top: 18px;
+}
+.education-item h4 {
+    font-weight: 300;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.education-item h3 {
+    padding-top: 6px;
+    font-size: 24px;
+}
+.education-item ul {
+    padding-left: 25px;
+    padding-top: 6px;
+    font-size: 16px;
+}  
+.education-item ul li {
+    font-weight: 300;
+}
+/* **********************#Content WORK EXPERIENCES*/
+.work-experiences h1 {
+    font-family: "Lexend Mega", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 75px;
+}
+.work-experiences-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-items: center;
+    gap: 26px;
+}
+.work-experiences-item:nth-child(1) {
+    background-color: #FFDADB;
+    width: 327px;
+    height: 83px;
+    border-radius: 24px;
+    padding-top: 26px;
+    padding-left: 27px;
+}
+.work-experiences-item:nth-child(2) {
+    background-color: #FFDADB;
+    width: 327px;
+    height: 83px;
+    border-radius: 24px;
+    padding-top: 18px;
+    padding-left: 27px;
+}
+.work-experiences-item:nth-child(3) {
+    background-color: #FFDADB;
+    width: 327px;
+    height: 83px;
+    border-radius: 24px;
+    padding-top: 18px;
+    padding-left: 27px;
+}

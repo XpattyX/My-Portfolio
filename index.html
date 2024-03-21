@@ -7,29 +7,43 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="logo">
-        <h1>Patty </h1>
-        <img src="img\Flower.svg" alt="">
+        <div class="nav-grid container">
+            <div class="nav-grid-item">
+                <div class="logo">
+                    <h1>Patty </h1>
+                    <img src="img\Flower.svg" alt="">
+                </div>
+            </div>
+        
+        
+            <div class="nav-grid-item">
+                <ul class="menu">
+                    <li><a href="#aboutme">About me</a></li>
+                    <li><a href="#myProject">My Project</a></li>
+                    <li><a href="#contactMe">Contact me</a></li>
+                </ul>
+            </div>
         </div>
-        <ul class="menu">
-            <li><a href="#">About me</a></li>
-            <li><a href="#">My Project</a></li>
-            <li><a href="#">Contact me</a></li>
-        </ul>
+        <!-- nav-grid container -->
     </header>
+    <!-- header -->
 
     <section class="content">
     <div class="container">
-        <div class="home">
+        <div class="home" id="aboutme">
             <div class="home-grid">
                 <div class="home-grid-item">
                     <img src="img\Mask group.svg" alt="">
-                    
                 </div>
-                <div class="home-item">
+                <div class="home-grid-item">
                     <h1>PAPIMPAT<br>
                         NIMPRASERT</h1>
                     <h4>Hello, I'm Papimpat Nimprasert, but you can call me Patty. 
@@ -58,6 +72,8 @@
             <img src="img\Flower.svg" alt="">
             <img src="img\Flower.svg" alt="">
         </div>
+        <!-- flower -->
+
         <div class="skill">
             <h1>SKILLS</h1>
             <div class="skill-grid">
@@ -91,37 +107,46 @@
                     </ul>
                 </div>
             </div>
+            <!-- skill-grid -->
         </div>
+        <!-- skill -->
 
         <div class="education">
             <h1>EDUCATION</h1>
-            <div class="education-item">
-                <h4>(2017-2020)</h4>
-                <h3>King Mongkut's University<br>
+            <div class="education-center">
+                <div class="education-item">
+                    <h4>(2017-2020)</h4>
+                    <h3>King Mongkut's University<br>
                      of Technology North Bangkok<br>
                     (KMUTNB)</h3>
-                <h4>GPA 3.68 (First class hounors)</h4>
-                <ul>
-                    <li>Bachelor of Business Administration, (B.B.A)</li>
-                    <li>Major in Manufacturing and Service Industry Management</li>
-                </ul>
+                    <h4>GPA 3.68 (First class hounors)</h4>
+                    <ul>
+                        <li>Bachelor of Business Administration, (B.B.A)</li>
+                        <li>Major in Manufacturing and Service Industry Management</li>
+                    </ul>
+                </div>
+                <!-- education-item -->
             </div>
         </div>
+        <!-- education -->
 
         <div class="work-experiences">
             <h1>WORK EXPERIENCES</h1>
-            <div class="work-experiences-item">
-                <h3>Freelance (Digital art)</h3>
-            </div>
-            <div class="work-experiences-item">
-                <h3>Account Executive</h3>
-                <h4>The Falcon Insurance Co.,Ltd</h4>
-            </div>
-            <div class="work-experiences-item">
-                <h3>Claim Staff</h3>
-                <h4>The Falcon Insurance Co.,Ltd</h4>
+            <div class="work-experiences-grid">
+                <div class="work-experiences-item">
+                    <h3>Freelance (Digital art)</h3>
+                </div>
+                <div class="work-experiences-item">
+                    <h3>Account Executive</h3>
+                    <h4>The Falcon Insurance Co.,Ltd</h4>
+                </div>
+                <div class="work-experiences-item">
+                    <h3>Claim Staff</h3>
+                    <h4>The Falcon Insurance Co.,Ltd</h4>
+                </div>
             </div>
         </div>
+        <!-- work-experiences -->
 
         <div class="certifications">
             <h1>CERTIFICATIONS</h1>
@@ -141,8 +166,9 @@
                 <button><i class="fa fa-link" aria-hidden="true"></i>More Certificates</button>
             </div>
         </div>
+        <!-- certifications -->
 
-        <div class="myproject">
+        <div class="myproject" id="myProject">
             <h1>MY PROJECT</h1>
             <div class="project-section">
                 <h2>UX/UI DESIGN</h2>
@@ -200,8 +226,9 @@
                 </div>
             </div>
         </div>
+        <!-- myproject -->
 
-        <div class="contact">
+        <div class="contact" id="contactMe">
             <div class="contact-grid1">
                 <div class="contact-grid1-item">
                     <img src="img\Patty.svg" alt="">
@@ -225,11 +252,11 @@
                 <div class="contact-grid2-item">
                     <img src="img\QR code.svg" alt="">
                 </div>    
-                
             </div>
-            
         </div>
+        <!-- contact -->
     </div>
+    <!-- container -->
     </section>
 
     <footer>

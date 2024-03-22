@@ -15,6 +15,11 @@
 </head>
 <body>
     <header>
+        <div class="hamburger" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
         <div class="nav-grid container">
             <div class="nav-grid-item">
                 <div class="logo">
@@ -150,21 +155,24 @@
 
         <div class="certifications">
             <h1>CERTIFICATIONS</h1>
-            <div class="certifications-item">
-                <h3>Introduction to JavaScript</h3>
-                <h4>BorntoDev.co.,Ltd</h4>
+            <div class="certifications-grid">
+                <div class="certifications-item">
+                    <h3>Introduction to JavaScript</h3>
+                    <h4>BorntoDev.co.,Ltd</h4>
+                </div>
+                <div class="certifications-item">
+                    <h3>Fundamental Web Dev with HTML5 & CSS3</h3>
+                    <h4>BorntoDev.co.,Ltd</h4>
+                </div>
+                <div class="certifications-item">
+                    <h3>Unlock skill ux/ui รุ่น 26</h3>
+                    <h4>UX/UI Studio</h4>
+                </div>
+                <div class="more-cert-button">
+                    <button><i class="fa fa-link" aria-hidden="true"></i>More Certificates</button>
+                </div>
             </div>
-            <div class="certifications-item">
-                <h3>Fundamental Web Dev with HTML5 & CSS3</h3>
-                <h4>BorntoDev.co.,Ltd</h4>
-            </div>
-            <div class="certifications-item">
-                <h3>Unlock skill ux/ui รุ่น 26</h3>
-                <h4>UX/UI Studio</h4>
-            </div>
-            <div class="more-cert-button">
-                <button><i class="fa fa-link" aria-hidden="true"></i>More Certificates</button>
-            </div>
+            
         </div>
         <!-- certifications -->
 
@@ -243,7 +251,7 @@
             <div class="contact-grid2">
                 <div class="contact-grid2-item">
                     <h3><i class="fa fa-map-marker" aria-hidden="true"></i>
-                    Bangkok, ThaiLand</h3>
+                    Bangkok, Thailand</h3>
                     <h3><i class="fa fa-phone" aria-hidden="true"></i>
                     094-3320-7770</h3>
                     <h3><i class="fa fa-envelope" aria-hidden="true"></i>
@@ -260,7 +268,7 @@
     </section>
 
     <footer>
-        <div class="footer-grid">
+        <div class="footer-grid container">
             <div class="footer-grid-item">
                 <h4>2024 - Papimpat Portfolio. ©All rights reserved.</h4>
             </div>
@@ -274,5 +282,7 @@
         </div>
     </footer>
 
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

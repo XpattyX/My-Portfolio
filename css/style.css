@@ -124,6 +124,7 @@ ul.menu {
     display: grid;
     grid-template-columns: 120px 120px 120px;
     gap: 2px;
+    justify-content: end;
 }
 ul.menu li {
     list-style: none;
